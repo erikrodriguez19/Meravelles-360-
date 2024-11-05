@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meravelles 360º</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="primeraPagina">
+        <div class="background-container"></div>
+        <h1 class="titulo">Meravelles 360°</h1>
+        <button class="boton-navegacion" onclick="cambiarPagina()">Començar</button>
+        <h2 class="subtitol-inici">Una experiència virtual a les meravelles del món antic</h2>   
+    </div>
+
+    <div id="segonaPagina">
+        <h2 class="titol-mapa">INTRODUCCIÓ</h2>
+        <p class="text-inici">Benvingut a la teva visita de les Set meravelles del món antic, aquí trobaràs un vídeo introductori per conèixer-ne una mica més.</p>
+        <div class="video">
+          <div><iframe width="560" height="315" src="https://www.youtube.com/embed/uqJ47sGufgY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        </div>
+        <div class="buton-mapa">  
+          <a href="mapa.html" id="botonMapa" class="button" style="--clr: #c7a14f">
+              <span class="button__icon-wrapper">
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="button__icon-svg"
+                    width="10"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+            
+                  <svg
+                    viewBox="0 0 14 15"
+                    fill="none"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="button__icon-svg button__icon-svg--copy"
+                  >
+                    <path
+                      d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </span>
+              MAPA
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
